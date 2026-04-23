@@ -1,0 +1,126 @@
+<style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+           
+text-align:center;
+background:linear-gradient(to right, red, yellow, pink, blue);
+}
+
+        header {
+            text-align: center;
+            padding: 30px;
+            
+            color: white;
+        }
+
+        header h1 {
+            margin: 10px;
+            font-color: black
+        }
+
+        marquee {
+font-size: 25px;
+            color: brown;
+            font-weight: bold;
+        }
+
+                fieldset {
+            border: 8px solid darkblue;
+            border-radius: 28px;
+            margin-bottom: 150px;
+        }
+
+        legend {
+            font-weight: bold;
+ border: 8px solid darkblue;
+            border-radius: 18px;
+            margin-bottom: 50px;
+
+            color: darkblue;
+        }
+
+        .drop-zone {
+            height: 120px;
+            text-align: center;
+            background-color: #f9f9f9;
+            border: 2px dashed gray;
+            border-radius: 10px;
+        }
+
+        .workspace {
+            width: 70%;
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+font-family : dark green;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        ul {
+background : pink;
+            padding-left: 30px;
+        }
+
+        table {
+border: 10px solid black;
+
+margin-left: auto;
+margin-right: auto;
+            border-collapse: collapse;
+width: 90%;
+        }
+
+        td {
+background: radial-gradient(circle, yellow, white, purple);
+
+            vertical-align: bottom;
+border-radius: 20px;
+            margin-bottom: 100px;
+
+}
+#equipment-drop-zone{
+font-size: 20px;
+
+}
+#chemical-drop-zone{
+font-size: 20px;
+}
+#reaction-area{
+font-size: 20px;
+}
+
+
+        li {
+border: 8px solid brown;
+            padding: 12px;
+            margin: 8px 0;
+            background: beige;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        li:hover {
+
+            background: green;
+            transform: scale(1.05);
+        }
+
+               
+        img {
+            width: 100px;
+            float: right;
+            border-radius: 20px;
+        }
+
+        hr {
+            border: 4px;
+            height: 2px;
+            background: blue;
+        }
+    </style>
